@@ -8,6 +8,7 @@ import xlwt
 from xlutils.copy import copy
 import os
 from bs4 import BeautifulSoup
+import queue
 
 url = "http://222.168.33.108:8899/ypselect?yy="
 
@@ -93,3 +94,4 @@ def spider():
 
 
 spider()
+
